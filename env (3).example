@@ -1,0 +1,9 @@
+# Copy this file to .env for LOCAL testing only.
+# On Render, set these as Environment Variables in the dashboard instead
+# of committing a .env file to your repo.
+
+BOT_TOKEN=your_new_bot_token_here
+CHANNEL_ID=-1003772364454
+ADMIN_ID=your_telegram_user_id_here
+APPROVE_THRESHOLD=10
+PORT=3000

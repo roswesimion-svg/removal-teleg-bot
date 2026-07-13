@@ -1,0 +1,17 @@
+{
+  "name": "channel-join-approver-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that queues channel join requests and auto-approves in batches of N",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: channel-join-approver-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: CHANNEL_ID
+        value: "-1003772364454"
+      - key: ADMIN_ID
+        sync: false
+      - key: APPROVE_THRESHOLD
+        value: "10"
